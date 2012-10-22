@@ -1,0 +1,95 @@
+html {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  background-image: none;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-position: 0% 0%;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+  margin-top: 0pt;
+  margin-right: 0pt;
+  margin-bottom: 0pt;
+  margin-left: 0pt;
+  padding-top: 0pt;
+  padding-right: 0pt;
+  padding-bottom: 0pt;
+  padding-left: 0pt;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0pt;
+}
+fieldset, img {
+  border-top-width: 0pt;
+  border-right-width: 0pt;
+  border-bottom-width: 0pt;
+  border-left-width: 0pt;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+}
+address, caption, cite, code, dfn, em, strong, th, var {
+  font-style: normal;
+  font-weight: normal;
+}
+li {
+  list-style-type: none;
+  list-style-position: outside;
+  list-style-image: none;
+}
+caption, th {
+  text-align: left;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+q:before, q:after {
+  content: "";
+}
+abbr, acronym {
+  border-top-width: 0pt;
+  border-right-width: 0pt;
+  border-bottom-width: 0pt;
+  border-left-width: 0pt;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+  font-variant: normal;
+}
+sup {
+  vertical-align: text-top;
+}
+sub {
+  vertical-align: text-bottom;
+}
+input, textarea, select {
+}
+legend {
+  color: rgb(0, 0, 0);
+}
+del, ins {
+  text-decoration: none;
+}
+body {
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 1.231;
+  font-family: arial, helvetica, clean, sans-serif;
+}
+select, input, button, textarea {
+}
+table {
+}
+pre, code, kbd, samp, tt {
+  font-family: monospace;
+  line-height: 100%;
+}
+body {
+  text-align: center;
+}

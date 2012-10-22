@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Index</title>
+<link rel="stylesheet" href="css/style.css" />
+<script src="lib/modernizr-2.5.3.js" type="text/javascript"></script>
+<script src="lib/jquery-1.7.1.js" type="text/javascript"></script>
+<script src="lib/jcanvas-5.1.js" type="text/javascript"></script>
+<script src="lib/jsArrayPrototype.js" type="text/javascript"></script>
+
+<script src="game/card.js" type="text/javascript"></script>
+<script src="game/cardDeck.js" type="text/javascript"></script>
+<script src="game/player.js" type="text/javascript"></script>
+<script src="game/renderer.js" type="text/javascript"></script>
+<script src="game/solitaire.js" type="text/javascript"></script>
+<script type="text/javascript">
+	var debugOn = true;
+	// if(debugOn){console.log("");}
+</script>
+</head>
+<body>
+
+<body>
+	<header>
+		<h1>solitaireJS</h1>
+		<h2>A simple JavaScript and HTML5 Canvas based design</h2>
+		<nav>
+			<ul>
+				<li><a href=../index.php>Back</a></li>
+			</ul>
+		</nav>
+	</header>
+	<article>
+			<h1>Solitaire</h1>
+			<script type="text/javascript">
+				// $(document).ready(function(){
+// 					if (Modernizr.canvastext){
+// 						$("#result").html('Your browser has support for CanvasText');
+// 					}
+// 					else{
+// 						$("#result").html('Your browser does not support Canvas');
+// 					}
+// 				});
+// 				
+// 				var printArray = function (value, index) {
+// 				   document.writeln('['+index+'] = '+value);
+// 				}
+// 
+// 				var myArray = [1,'two',3,'four',5];
+// 				myArray.forEach(printArray); // outputs: [0] = 1 [1] = two [2] = 3 [3] = four [4] = 5s
+				var s = new solitaireJS();
+				s.init("J");
+			</script>
+	</article>
+</body>
+</html>
